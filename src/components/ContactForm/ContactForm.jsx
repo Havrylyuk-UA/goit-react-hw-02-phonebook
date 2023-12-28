@@ -13,7 +13,6 @@ class ContactForm extends Component {
 
     this.handleChangeName = this.handleChangeName.bind(this);
     this.handleChangeNumber = this.handleChangeNumber.bind(this);
-    this.handlePushForm = this.handlePushForm.bind(this);
   }
 
   handlePushForm = e => {
